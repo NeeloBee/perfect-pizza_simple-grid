@@ -9,7 +9,6 @@
 
 html,
 body {
-  background-color: chocolate;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -174,7 +173,6 @@ p {
 
 .col-12-sm {
   width: 30%;
-  background-color: darkslategray;
 }
 
 .row::after {
@@ -182,7 +180,7 @@ p {
 	display: table;
 	clear: both;
 }
-
+ 
 .hidden-sm {
   display: none;
 }
@@ -208,7 +206,6 @@ p {
 
   .col-4 {
     width: 29.33%;
-    background-color: lightpink;
   }
 
   .col-5 {
@@ -241,7 +238,6 @@ p {
 
   .col-12 {
     width: 96%;
-    background-color: lightslategray;
   }
 
   .hidden-sm {
@@ -252,6 +248,58 @@ p {
 @media only screen and (min-width: 60em) { /* 960px */
   .container {
     width: 75%;
-    max-width: 60rem;
+    
+    }
+
+    .col-1 {
+      width: 4.33%;
+    }
+  
+    .col-2 {
+      width: 12.66%;
+    }
+  
+    .col-3 {
+      width: 21%;
+    }
+  
+    .col-4 {
+      width: 29.33%;
+    }
+  
+    .col-5 {
+      width: 37.66%;
+    }
+  
+    .col-6 {
+      width: 46%;
+    }
+  
+    .col-7 {
+      width: 54.33%;
+    }
+  
+    .col-8 {
+      width: 62.66%;
+    }
+  
+    .col-9 {
+      width: 71%;
+    }
+  
+    .col-10 {
+      width: 79.33%;
+    }
+  
+    .col-11 {
+      width: 87.66%;
+    }
+  
+    .col-12 {
+      width: 96%;
+    }
+  
+    .hidden-sm {
+      display: block;
+    }
   }
-}
