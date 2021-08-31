@@ -10,6 +10,7 @@ body {
     
       .col-12 {
         background-color: rgb(132, 167, 167);
+        border: solid black 2px;
       }
 
     .pizza {
