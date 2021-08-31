@@ -1,17 +1,21 @@
 body {
     background-color: chocolate;
-    padding: 0.6em;
-    margin: 0.6em;
-    font-family: 'Courier New', Courier, monospace;
+
 }
 
         .col-4 {
         background-color: lightpink;
-       
-      }
+      
+    }
     
       .col-12 {
         background-color: rgb(132, 167, 167);
       }
+
+    .pizza {
+      padding: 1em;
+      border: solid black 2px;
+      font-family: 'Courier New', Courier, monospace;
+    }
       
 
